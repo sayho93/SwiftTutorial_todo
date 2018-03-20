@@ -8,11 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		11457DD62060C7B800BCF34A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11457DD52060C7B800BCF34A /* AppDelegate.swift */; };
-		11457DD82060C7B800BCF34A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11457DD72060C7B800BCF34A /* ViewController.swift */; };
 		11457DDB2060C7B800BCF34A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11457DD92060C7B800BCF34A /* Main.storyboard */; };
 		11457DDD2060C7B800BCF34A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11457DDC2060C7B800BCF34A /* Assets.xcassets */; };
 		11457DE02060C7B800BCF34A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11457DDE2060C7B800BCF34A /* LaunchScreen.storyboard */; };
 		11457DEB2060C7B800BCF34A /* iCloudToDoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11457DEA2060C7B800BCF34A /* iCloudToDoTests.swift */; };
+		11457DF6206126A400BCF34A /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11457DF5206126A400BCF34A /* TableViewController.swift */; };
+		11457DF82061283E00BCF34A /* TodoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11457DF72061283E00BCF34A /* TodoCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +29,6 @@
 /* Begin PBXFileReference section */
 		11457DD22060C7B800BCF34A /* iCloudToDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iCloudToDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11457DD52060C7B800BCF34A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		11457DD72060C7B800BCF34A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		11457DDA2060C7B800BCF34A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		11457DDC2060C7B800BCF34A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		11457DDF2060C7B800BCF34A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +36,8 @@
 		11457DE62060C7B800BCF34A /* iCloudToDoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iCloudToDoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		11457DEA2060C7B800BCF34A /* iCloudToDoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iCloudToDoTests.swift; sourceTree = "<group>"; };
 		11457DEC2060C7B800BCF34A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11457DF5206126A400BCF34A /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		11457DF72061283E00BCF34A /* TodoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,11 +80,12 @@
 			isa = PBXGroup;
 			children = (
 				11457DD52060C7B800BCF34A /* AppDelegate.swift */,
-				11457DD72060C7B800BCF34A /* ViewController.swift */,
 				11457DD92060C7B800BCF34A /* Main.storyboard */,
 				11457DDC2060C7B800BCF34A /* Assets.xcassets */,
 				11457DDE2060C7B800BCF34A /* LaunchScreen.storyboard */,
 				11457DE12060C7B800BCF34A /* Info.plist */,
+				11457DF5206126A400BCF34A /* TableViewController.swift */,
+				11457DF72061283E00BCF34A /* TodoCell.swift */,
 			);
 			path = iCloudToDo;
 			sourceTree = "<group>";
@@ -199,8 +202,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11457DD82060C7B800BCF34A /* ViewController.swift in Sources */,
 				11457DD62060C7B800BCF34A /* AppDelegate.swift in Sources */,
+				11457DF82061283E00BCF34A /* TodoCell.swift in Sources */,
+				11457DF6206126A400BCF34A /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
